@@ -9,7 +9,7 @@ SSH_OPTS=-oStrictHostKeyChecking=no
 if [[ "$(uname)" == "Darwin" ]]; then
     DOCKER_CMD=docker
 else
-    DOCKER_CMD="sudo docker"
+    DOCKER_CMD="echo "111111" | sudo -S docker"
 fi
 
 if [[ -z $($DOCKER_CMD images | grep test-container) ]] ; then
