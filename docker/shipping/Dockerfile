@@ -1,6 +1,6 @@
 FROM weaveworksdemos/msd-java:jre-latest
 
-WORKDIR /var/lib/jenkins/workspace/SocksShop-Shipping/docker/
+WORKDIR /usr/src/app
 COPY *.jar ./app.jar
 
 RUN	chown -R ${SERVICE_USER}:${SERVICE_GROUP} ./app.jar
