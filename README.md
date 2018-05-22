@@ -37,3 +37,9 @@ This build is built, tested and released by travis.
 `GROUP=weaveworksdemos COMMIT=test ./scripts/push.sh`
 
 Add something for commit
+
+Add something for commit
+
+Add something for commit
+
+Add something for commit
