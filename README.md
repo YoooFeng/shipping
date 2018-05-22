@@ -40,6 +40,3 @@ Add something for commit
 
 Add something for commit
 
-Add something for commit
-
-Add something for commit
